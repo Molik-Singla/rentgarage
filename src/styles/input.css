@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: rgb(209, 209, 209); /* Change this to your desired color */
+    width: 30px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    font-size: 32px; /* Adjust the font size to make the arrow larger or smaller */
+}
