@@ -36,7 +36,9 @@ const SingleCarCard = ({ imgSrc, name, features }) => {
                 </section>
 
                 <div className="DIVIDER my-3 h-[1px] w-full bg-gray-600"></div>
-                <button className="rounded-md bg-black px-6 py-1.5 font-secondary font-semibold text-green-500">Book Now</button>
+                <a href="tel:+917710290184" className="rounded-md bg-black px-6 py-1.5 font-secondary font-semibold text-green-500">
+                    Book Now
+                </a>
             </section>
         </section>
     );

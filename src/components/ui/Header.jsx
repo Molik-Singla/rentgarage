@@ -15,7 +15,7 @@ const Header = () => {
                     <HiOutlineMenuAlt2 className="text-3xl" />
                 </div>
                 <div>
-                    <img className="w-[80px] hover:cursor-pointer md:w-[130px]" src={logoImg} alt="LOGO" />
+                    <img className="w-[68px] hover:cursor-pointer md:w-[130px]" src={logoImg} alt="LOGO" />
                 </div>
 
                 <section className="hidden min-w-fit items-center justify-center gap-1 lg:flex">
@@ -61,15 +61,21 @@ const Header = () => {
                 </section>
 
                 <section className="flex items-center gap-4 lg:gap-6">
-                    <button className="group flex items-center gap-2 rounded-md bg-primary-green px-2 py-1 text-sm text-gray-50 transition-all duration-150 hover:bg-black hover:text-white sm:py-4 md:px-4 lg:px-8">
+                    <a
+                        href="tel:+917710290184"
+                        className="group flex items-center gap-2 rounded-md bg-primary-green px-2 py-1 text-sm text-gray-50 transition-all duration-150 hover:bg-black hover:text-white sm:py-4 md:px-4 lg:px-8"
+                    >
                         <span>Book on Whatsapp</span>
                         <FaWhatsapp className="text-xl text-secondary-purple group-hover:text-white" />
-                    </button>
+                    </a>
                     {/* Phone Logo */}
 
-                    <div className="hidden h-12 w-12 min-w-12 items-center justify-center rounded-md bg-gray-500/80 text-4xl transition-all duration-200 hover:bg-secondary-purple lg:flex">
+                    <a
+                        href="tel:+917710290184"
+                        className="hidden h-12 w-12 min-w-12 items-center justify-center rounded-md bg-gray-500/80 text-4xl transition-all duration-200 hover:bg-secondary-purple lg:flex"
+                    >
                         <MdCall className="fill-white" />
-                    </div>
+                    </a>
                 </section>
             </header>
 
